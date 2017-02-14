@@ -23,7 +23,7 @@ so a subsequent invocation of a decorated function may change it.
 
 .. code:: python
 
-    @bigstack(stacksize=2 ** 30)    # stack size = 1GB
+    @bigstack(stacksize=2**30)    # stack size = 1GB
     def function(...):
         """Highly recursive function."""
         ...
