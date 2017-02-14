@@ -1,5 +1,5 @@
-limit
-=====
+bigstack
+========
 
 *python decorator that increases the stack size for the function. This is useful
 for highly recursive function (albeit highly recursive function are bad).*
